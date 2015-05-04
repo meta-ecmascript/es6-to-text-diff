@@ -42,7 +42,9 @@ use pandoc
 
 ### txt to git repository
 
-  ./new-git-revision.sh
+```sh
+./new-git-revision.sh
+```
 
 Create git repository from revision text files.
 The repository has a single file `es-draft.txt` that maintain a history of ES6 Drafts.
