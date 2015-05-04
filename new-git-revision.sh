@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# http://stackoverflow.com/questions/4493205/unix-sort-of-version-numbers
 declare txtFiles=$(find "$(pwd)/txts" -maxdepth 1 -mindepth 1 | sort --field-separator=v -k 1,1n -k 2,2n -k 3,3n -k 4,4n)
 declare outputDir="es6-draft-revision"
 rm -rf ${outputDir}
