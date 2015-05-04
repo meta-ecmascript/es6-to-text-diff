@@ -5,6 +5,8 @@
 
 ## Usage
 
+Please see [meta-ecmascript/es6-draft-revision](https://github.com/meta-ecmascript/es6-draft-revision "meta-ecmascript/es6-draft-revision")
+
 ### doc to docx
 
 Some doc file is broken. So convert doc to docx.
@@ -49,6 +51,8 @@ use pandoc
 
 Create git repository from revision text files.
 The repository has a single file `es-draft.txt` that maintain a history of ES6 Drafts.
+
+The repository of the result => [meta-ecmascript/es6-draft-revision](https://github.com/meta-ecmascript/es6-draft-revision "meta-ecmascript/es6-draft-revision")
 
 ## Contributing
 
