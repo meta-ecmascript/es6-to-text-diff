@@ -5,5 +5,5 @@ mkdir -p txts
 for file in docx/*.docx ; do
   outputFile=$(basename "${file}" .doc)
   echo "${file} => txts/${outputFile}.txt"
-  pandoc "${file}" -t plain -o "txts/${outputFile}.txt"
+  pandoc -f docx "${file}" -t native | pandoc -f native -t plain -o "txts/${outputFile}.txt"
 done
