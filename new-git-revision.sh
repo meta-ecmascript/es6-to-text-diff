@@ -17,4 +17,8 @@ for file in ${txtFiles} ; do
     git tag "${commitMessage}" -m "${commitMessage}"
   fi
 done
+# git push
+git remote add origin git@github.com:meta-ecmascript/es6-draft-revision.git
+git push --set-upstream origin master -f
+# pop
 cd -
