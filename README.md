@@ -1,4 +1,4 @@
-# es6-to-ascii
+# es6-to-text-diff
 
 - Convert ES6 Drafts to plain text file.
 - Create git repo from `rev*.txt`
