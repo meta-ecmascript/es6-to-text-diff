@@ -14,6 +14,7 @@ for file in ${txtFiles} ; do
     git add ./es6-draft.txt
     commitMessage=$(basename "${file}" .doc.docx.txt)
     git commit -m "${commitMessage}"
+    git tag "${commitMessage}" -m "${commitMessage}"
   fi
 done
 cd -
