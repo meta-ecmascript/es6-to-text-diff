@@ -1,16 +1,9 @@
 # es6-to-ascii
 
-Convert ES6 Drafts to plain text file.
-
-## Installation
-
-- [ ] Describe the installation process
+- Convert ES6 Drafts to plain text file.
+- Create git repo from `rev*.txt`
 
 ## Usage
-
-- [ ] Write usage instructions
-
-## Note
 
 ### doc to docx
 
@@ -46,6 +39,13 @@ use pandoc
 
 [doc-to-txt.sh](doc-to-txt.sh) depend on pandoc.
 
+
+### txt to git repository
+
+  ./new-git-revision.sh
+
+Create git repository from revision text files.
+The repository has a single file `es-draft.txt` that maintain a history of ES6 Drafts.
 
 ## Contributing
 
