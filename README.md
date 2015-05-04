@@ -43,7 +43,8 @@ use pandoc
 ### txt to git repository
 
 ```sh
-./new-git-revision.sh
+# create & git push
+./new-git-revision.sh && ./git-push-revision.sh
 ```
 
 Create git repository from revision text files.
