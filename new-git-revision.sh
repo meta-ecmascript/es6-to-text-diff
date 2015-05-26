@@ -10,8 +10,7 @@ git init
 for file in ${txtFiles} ; do
   if [ -s "${file}" ]; then
     cp "${file}" ./es6-draft.txt
-    # remove "_" from "_some_"
-    sed -i '' -e 's/_\([^ ]*\)_/\1/g' es6-draft.txt
+    ../_tools/trim_waste_diff.js ./es6-draft.txt
     git add ./es6-draft.txt
     commitMessage=$(basename "${file}" .doc.docx.txt)
     git commit -m "${commitMessage}"

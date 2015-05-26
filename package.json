@@ -1,0 +1,27 @@
+{
+  "name": "es6-to-text-diff",
+  "version": "1.0.0",
+  "description": "ECMAScript6 Draft git creator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meta-ecmascript/es6-to-text-diff.git"
+  },
+  "keywords": [
+    "es6",
+    "ecmascript",
+    "git"
+  ],
+  "author": "azu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meta-ecmascript/es6-to-text-diff/issues"
+  },
+  "homepage": "https://github.com/meta-ecmascript/es6-to-text-diff",
+  "devDependencies": {
+    "concat-stream": "^1.4.8"
+  }
+}
