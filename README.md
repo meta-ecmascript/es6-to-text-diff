@@ -1,5 +1,7 @@
 # es6-to-text-diff
 
+**This is not the official**
+
 - Convert ES6 Drafts to plain text file.
 - Create git repo from `rev*.txt`
 
@@ -65,3 +67,32 @@ The repository of the result => [meta-ecmascript/es6-draft-revision](https://git
 ## License
 
 MIT
+
+## COPYRIGHT NOTICE
+
+- [harmony:specification_drafts [ES Wiki]](http://wiki.ecmascript.org/doku.php?id=harmony:specification_drafts "harmony:specification_drafts [ES Wiki]")
+- http://www.ecma-international.org/publications/standards/Ecma-262.htm
+
+```
+COPYRIGHT NOTICE
+
+© 2015 Ecma International
+
+This document may be copied, published and distributed to others, and certain derivative works of it may be prepared, copied, published, and distributed, in whole or in part, provided that the above copyright notice and this Copyright License and Disclaimer are included on all such copies and derivative works. The only derivative works that are permissible under this Copyright License and Disclaimer are:
+
+(i) works which incorporate all or portion of this document for the purpose of providing commentary or explanation (such as an annotated version of the document),
+
+(ii) works which incorporate all or portion of this document for the purpose of incorporating features that provide accessibility,
+
+(iii) translations of this document into languages other than English and into different formats and
+
+(iv) works by making use of this specification in standard conformant products by implementing (e.g. by copy and paste wholly or partly) the functionality therein.
+
+However, the content of this document itself may not be modified in any way, including by removing the copyright notice or references to Ecma International, except as required to translate it into languages other than English or into a different format.
+
+The official version of an Ecma International document is the English language version on the Ecma International website. In the event of discrepancies between a translated version and the official version, the official version shall govern.
+
+The limited permissions granted above are perpetual and will not be revoked by Ecma International or its successors or assigns.
+
+This document and the information contained herein is provided on an "AS IS" basis and ECMA INTERNATIONAL DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE OF THE INFORMATION HEREIN WILL NOT INFRINGE ANY OWNERSHIP RIGHTS OR ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE."
+```
